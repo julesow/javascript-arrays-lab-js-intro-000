@@ -5,4 +5,4 @@ function destructivelyAppendKitten(name){ kittens.push(name)}
 
 function destructivelyPrependKitten(name){kittens.unshift(name)}
 
-function 
+function destructivelyRemoveLastKitten(){kittens.slice(,-1)}
