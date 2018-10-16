@@ -9,4 +9,4 @@ function destructivelyRemoveLastKitten(){kittens.pop()}
 
 function destructivelyRemoveFirstKitten(){kittens.shift()}
 
-function appendKitten(name){[kittens,...'name'] return kittens}
+function appendKitten(name){kittens.push(name)}
